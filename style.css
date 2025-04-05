@@ -1,0 +1,61 @@
+body,
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  font-size: 3rem;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+  border: 5px solid black;
+  padding: 1rem;
+}
+
+label {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+input {
+  align-self: center;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  margin: 10px auto;
+  padding: 1rem;
+  justify-self: center;
+}
+
+.weather-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 500px;
+  width: 500px;
+}
