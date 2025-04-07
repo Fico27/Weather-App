@@ -21,8 +21,11 @@ body {
   flex-direction: column;
   justify-content: center;
   margin-top: 2rem;
-  border: 5px solid black;
+  /* border: 5px solid black; */
   padding: 1rem;
+  border: 1px inset #95a5a6;
+  border-radius: 4px;
+  background-color: #ecf0f1;
 }
 
 label {
@@ -55,7 +58,7 @@ button {
   align-items: center;
 }
 
-img {
+/* img {
   height: 500px;
   width: 500px;
-}
+} */
